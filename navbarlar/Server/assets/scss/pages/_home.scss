@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    .server {
+        .src {
+            display: flex;
+            .logo {
+                a {
+                    i {
+                        color: black;
+                        padding-right: 10px;
+                        padding-top: 10px;
+                        font-size: 40px;
+                    }
+                }
+            }
+
+            span {
+                color: black;
+
+                font-size: 35px;
+                text-decoration: none;
+            }
+        }
+    }
+    .elaqe {
+        display: flex;
+        .nomre {
+            display: flex;
+
+           
+        }
+    }
+}
+
+#icon{
+    i{
+        padding-top: 7px;
+
+    font-size: 35px;
+    margin: 0px 10px 0px 40px;
+    }
+    
+}
+
+
+
+
+@media(max-width:997px){
+    #text{
+        display: none;
+    }
+    #icon{
+        i{
+            margin: 10px;
+        }
+    }
+}
+
+
+#head {
+    background-color: #343a40;
+    .container {
+        .row {
+            nav {
+                max-width: 100%;
+                background-color: #343a40;
+                .navcont{
+                     ul {
+
+                    li {
+                        .home{
+                            color: white;
+                        }
+                        a{
+                            padding-left: 25px;
+                            font-weight: 500;
+                            color: rgba(255, 255, 255, 0.6);
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                    #down{
+                        ul{
+                            li{
+                                a{
+                                    font-weight: 400;
+                                     color: black;
+                                     
+                                }
+                            }
+                           
+                        }
+                    }
+                   
+                }
+
+                }
+               
+               .btnOne{
+             display: flex;
+
+              .btnreg{
+                padding: 10px 25px ;
+                background-color: #343a40;
+                border: 1px solid #7CBD1E;
+                color: white;
+                font-weight: 400;
+                &:hover{
+                    background-color: #7CBD1E;
+                }
+             }
+             .btnlog{
+                padding: 10px 20px;
+                margin-left: 5px;
+                color: white;
+                background-color: #7CBD1E;
+                border: 1px solid #7CBD1E;
+                font-weight: 400;
+                &:hover{
+                    background-color: #5a8a18;
+                }
+             }
+            
+                 }
+            }
+            
+        }
+    }
+}
+
+

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#head .container nav ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+#head .container nav ul .dropdown .dropdown-menu {
+  display: none;
+}
+#head .container nav ul .dropdown .dropdown-menu #dropdown-item {
+  text-decoration: none;
+}
+#head .container nav ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+#head .container nav ul li a:hover {
+  color: #6bb0fc;
+}

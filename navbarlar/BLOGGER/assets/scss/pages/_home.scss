@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head {
+    .container {
+        nav {
+            ul {
+                .dropdown {
+                    &:hover {
+                        .dropdown-menu {
+                            display: block;
+                        }
+                    }
+                    .dropdown-menu {
+                        display: none;
+                        #dropdown-item {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                li {
+                    a {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        font-weight: 700;
+                        font-size: 13px;
+
+                        &:hover {
+                            color: #6bb0fc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
